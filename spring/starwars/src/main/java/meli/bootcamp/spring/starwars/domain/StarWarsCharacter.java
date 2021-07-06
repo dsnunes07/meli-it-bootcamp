@@ -1,6 +1,7 @@
 package meli.bootcamp.spring.starwars.domain;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnoreType;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class StarWarsCharacter {
