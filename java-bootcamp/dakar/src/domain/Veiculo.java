@@ -74,6 +74,6 @@ public class Veiculo {
     }
 
     public double getDesempenho() {
-        return this.velocidade *  this.aceleracao / (this.anguloDeGiro * (this.peso - this.rodas * 100);
+        return this.velocidade *  this.aceleracao / (this.anguloDeGiro * (this.peso - this.rodas * 100));
     }
 }
